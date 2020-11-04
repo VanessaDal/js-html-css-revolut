@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show li {
+  display: none;
+}

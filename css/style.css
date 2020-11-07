@@ -51,6 +51,10 @@ a {
   align-items: center;
 }
 
+.dropdown ul li {
+  margin: 10px 0;
+}
+
 .show {
   display: block;
 }

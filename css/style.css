@@ -3,16 +3,36 @@ header {
   justify-content: space-between;
 }
 
-.nav-right {
-  display: flex;
-  justify-content: space-between;
+a {
+  text-decoration: none;
+  color: rgb(167, 167, 167);
+}
+
+.nav-right ul li {
+  display: inline;
+  padding-right: 40px;
+  color: rgb(167, 167, 167);
 }
 
 .nav-left {
-  display: flex;
-  justify-content: space-between;
+  display: inline;
 }
 
-.show li {
+.dropitem {
+  position: relative;
+}
+
+.dropdown {
   display: none;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  min-height: 100px;
+  min-width: 100px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.show {
+  display: block;
 }

@@ -2,32 +2,20 @@
 // Ogni voce di menù avrà un suo dropdown menù che viene fuori al click.
 
 $(document).ready(function(){
+  // $("li.dropitem").click(function () {
+  //   $(".dropdown").toggleClass("show");
+  // });
 
-    $('.nav-right > ul').click(function () {
-        $('ul > li').toggleClass('show');
-      });
+  $(".dropitem").click(function () {
 
-
-
-
-
-
+    $(this).children(".dropdown").toggleClass("show");
+  
 
 
 
 
 
 
+  });
 
-
-
-
-
-
-
-
-
-
-
-
-})
+});
